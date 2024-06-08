@@ -3,15 +3,38 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
         <script src="../js/game.js" defer></script>
+        <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/game.css">
         <title>Aknakereső</title>
     </head>
     <body>
-        <div id="retry">
-            <h1 id = "h1">Felrobbantál!</h1>
-            <button onclick="restart()">Restart</button>
-        </div>
-        <div id="table"></div>
+        <header>
+            <div>
+                <div>
+                    <span class="material-symbols-outlined">arrow_forward_ios</span>
+                    <div id="menu">
+                        <a href="../index.html">Főoldal</a>
+                        <a href="./osszegzes.html">Összegzés</a>
+                        <a href="./tankok.html">Tankok</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h1>Aknakereső</h1>
+            </div>
+            <div>
+                
+            </div>
+        </header>
+
+        <main>
+            <div id="retry">
+                <h1 id = "h1">Felrobbantál!</h1>
+                <button onclick="restart()">Restart</button>
+            </div>
+            <div id="table"></div>
+        </main>
     </body>
 </html>
